@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+.login-page{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#1b1f5b,#3d2dc4);
+
+}
+
+.login-card{
+
+    width:430px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+}
+
+.logo-icon{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:12px;
+
+    background:#5b4cf5;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:bold;
+
+}
+
+.logo h1{
+
+    color:#222;
+
+}
+
+.logo span{
+
+    color:#5b4cf5;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:gray;
+
+    margin-top:10px;
+
+    margin-bottom:30px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    margin-top:20px;
+
+    color:#444;
+
+}
+
+.input-group{
+
+    display:flex;
+
+    align-items:center;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    padding:14px;
+
+}
+
+.input-group svg{
+
+    color:#999;
+
+}
+
+.input-group input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    margin-left:10px;
+
+    font-size:15px;
+
+}
+
+button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#5b4cf5;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#4d3be0;
+
+}
+
+.error{
+
+    margin-top:15px;
+
+    color:red;
+
+    text-align:center;
+
+}
+
+a{
+
+    display:block;
+
+    text-align:center;
+
+    margin-top:25px;
+
+    color:#5b4cf5;
+
+    text-decoration:none;
+
+}
+
+.eye-icon{
+    cursor:pointer;
+    color:#888;
+    transition:.3s;
+}
+
+.eye-icon:hover{
+    color:#5b4cf5;
+}

@@ -1,0 +1,96 @@
+.sidebar {
+  width: 280px;
+  background: #13192d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px 14px;
+}
+
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 12px 30px;
+}
+
+.logo-square {
+  width: 42px;
+  height: 42px;
+  background: #5b4cf5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 8px);
+  gap: 4px;
+}
+
+.grid span {
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 2px;
+}
+
+.sidebar-logo h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.sidebar-logo span {
+  color: #6d5efc;
+}
+
+.menu-title {
+  color: #707a98;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 0 14px 18px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar nav a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #b8c2df;
+  text-decoration: none;
+  padding: 14px 16px;
+  border-radius: 12px;
+  transition: 0.25s;
+  position: relative;
+}
+
+.sidebar nav a svg {
+  font-size: 20px;
+}
+
+.sidebar nav a:hover {
+  background: rgba(91, 76, 245, .18);
+}
+
+.sidebar nav a.active {
+  background: #5b4cf5;
+  color: white;
+}
+
+.active-dot {
+  width: 7px;
+  height: 7px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  right: 16px;
+}
+
