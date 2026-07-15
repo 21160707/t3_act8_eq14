@@ -56,10 +56,7 @@ function Sidebar() {
         </nav>
       </div>
 
-      <button className="logout-sidebar">
-        <FiLogOut />
-        Cerrar sesión
-      </button>
+      
     </aside>
   );
 }
